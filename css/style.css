@@ -154,6 +154,24 @@ main {
   padding: 20px;
 }
 
+.articulo__uno {
+  background-color: #eee;
+}
+
+.articulo__uno .foto {
+  float: left;
+}
+
+.articulo__uno::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.articulo__uno .info {
+  margin-left: 120px;
+}
+
 @media screen and (max-width: 760px) {
   .body_move {
     margin-left: 0px;
